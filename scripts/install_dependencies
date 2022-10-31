@@ -1,4 +1,5 @@
 #!/bin/bash
 sudo apt-get update -y
-sudo apt-get install -y httpd
+sudo apt-get dist-upgrade -y
+sudo apt-get install apache2 -y
 
